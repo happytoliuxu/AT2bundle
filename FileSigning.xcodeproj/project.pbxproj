@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		010E09DA2A41649A0033A6AA /* FileSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 010E09D92A41649A0033A6AA /* FileSigning.h */; };
 		010E09DC2A41649A0033A6AA /* FileSigning.m in Sources */ = {isa = PBXBuildFile; fileRef = 010E09DB2A41649A0033A6AA /* FileSigning.m */; };
+		010E09E52A4165030033A6AA /* FileSigner.h in Headers */ = {isa = PBXBuildFile; fileRef = 010E09E32A4165030033A6AA /* FileSigner.h */; };
+		010E09E62A4165030033A6AA /* FileSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 010E09E42A4165030033A6AA /* FileSigner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		010E09D62A41649A0033A6AA /* FileSigning.l-dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "FileSigning.l-dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		010E09D92A41649A0033A6AA /* FileSigning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSigning.h; sourceTree = "<group>"; };
 		010E09DB2A41649A0033A6AA /* FileSigning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileSigning.m; sourceTree = "<group>"; };
+		010E09E32A4165030033A6AA /* FileSigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSigner.h; sourceTree = "<group>"; };
+		010E09E42A4165030033A6AA /* FileSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSigner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		010E09D82A41649A0033A6AA /* FileSigning */ = {
 			isa = PBXGroup;
 			children = (
+				010E09E32A4165030033A6AA /* FileSigner.h */,
+				010E09E42A4165030033A6AA /* FileSigner.m */,
 				010E09D92A41649A0033A6AA /* FileSigning.h */,
 				010E09DB2A41649A0033A6AA /* FileSigning.m */,
 			);
@@ -60,6 +66,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010E09E52A4165030033A6AA /* FileSigner.h in Headers */,
 				010E09DA2A41649A0033A6AA /* FileSigning.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				010E09DC2A41649A0033A6AA /* FileSigning.m in Sources */,
+				010E09E62A4165030033A6AA /* FileSigner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
